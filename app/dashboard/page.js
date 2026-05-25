@@ -8,8 +8,8 @@ import DashboardLayout from "@/components/dashboard/DashboardLayout";
 function TypeBadge({ type }) {
   const styles = {
     workshop: "bg-blue-500/15 text-blue-400 ring-blue-500/30",
-    hackathon: "bg-violet-500/15 text-violet-400 ring-violet-500/30",
-    competition: "bg-amber-500/15 text-amber-400 ring-amber-500/30",
+    hackathon: "bg-indigo-500/15 text-indigo-400 ring-indigo-500/30",
+    competition: "bg-cyan-500/15 text-cyan-400 ring-cyan-500/30",
   };
   const style = styles[type] ?? styles.workshop;
 
@@ -299,11 +299,11 @@ export default function DashboardPage() {
                     {pendingApplications.map((app) => (
                       <li
                         key={app.id}
-                        className="rounded-xl border border-amber-500/15 bg-amber-500/5 px-4 py-3.5"
+                        className="rounded-xl border border-blue-500/15 bg-blue-500/5 px-4 py-3.5"
                       >
                         <div className="flex items-center justify-between gap-2">
                           <p className="font-medium text-white">{app.role}</p>
-                          <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase text-amber-400 ring-1 ring-amber-500/25">
+                          <span className="rounded-full bg-blue-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase text-blue-400 ring-1 ring-blue-500/25">
                             pending
                           </span>
                         </div>

@@ -87,9 +87,11 @@ export default function LoginPage() {
 
       <div className="relative w-full max-w-md">
         <div className="mb-8 text-center">
-          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-600 to-indigo-600 shadow-lg shadow-violet-500/25">
-            <span className="text-2xl font-bold text-white">CSI</span>
-          </div>
+          <img
+            src="/csi-logo.png"
+            alt="CSI Logo"
+            className="mx-auto mb-4 h-16 w-16 rounded-2xl object-cover shadow-lg shadow-violet-500/25 transition-transform hover:scale-105"
+          />
           <h1 className="text-3xl font-bold tracking-tight text-white">
             CSI Student Chapter
           </h1>

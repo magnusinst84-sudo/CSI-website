@@ -23,9 +23,7 @@ export default function DashboardNavbar({ user, profile }) {
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-blue-500/10 bg-[#060b14]/80 px-4 backdrop-blur-xl sm:px-6 lg:px-8">
       <div className="flex items-center gap-3">
-        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-blue-800">
-          <span className="text-[10px] font-bold text-white">CSI</span>
-        </div>
+        <img src="/csi-logo.png" alt="CSI Logo" className="h-8 w-8 rounded-lg object-cover" />
         <span className="text-sm font-semibold text-white">CSI VIT Chennai</span>
       </div>
 

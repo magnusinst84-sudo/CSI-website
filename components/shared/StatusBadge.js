@@ -1,5 +1,5 @@
 const STATUS_STYLES = {
-  pending: "bg-amber-500/15 text-amber-400 ring-amber-500/30",
+  pending: "bg-blue-500/15 text-blue-400 ring-blue-500/30",
   approved: "bg-emerald-500/15 text-emerald-400 ring-emerald-500/30",
   rejected: "bg-red-500/15 text-red-400 ring-red-500/30",
 };
