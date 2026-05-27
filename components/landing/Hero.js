@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useRef, useState } from 'react';
 import { ArrowDown, Play, Users, Calendar, Trophy } from 'lucide-react';
 import Link from 'next/link';
@@ -99,12 +97,12 @@ export default function Hero() {
         {/* Title */}
         <h1
           ref={titleRef}
-          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.9] mb-8"
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[1.1] mb-8"
           style={{ perspective: '1000px' }}
         >
-          <span className="block text-white">The Future of</span>
+          <span className="block text-white">Computer Society Of India</span>
           <span className="block bg-gradient-to-r from-cyan-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent shimmer-text">
-            Tech Communities
+            CSI VIT Chennai Chapter
           </span>
         </h1>
 
